@@ -79,3 +79,18 @@ footer {
     padding: 10px 0;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact,
+    #contact1,
+    #contact2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
