@@ -55,6 +55,23 @@ ul {
     align-items: center;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+#contact {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#contact1,
+#contact2 {
+    flex: 0 0 300px;
+}
+
 footer {
     background-color: #4f4f4f;
     color: #fff;
